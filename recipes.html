@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Recipes | Ohana Bento</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-container">
+
+      <a href="index.html" class="logo">
+        <img src="ohana bento logo.png" alt="Ohana Bento logo" class="logo-image">
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="recipes.html" aria-current="page">Recipes</a>
+        <a href="about.html">About Us</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="page-container recipes-page">
+
+    <section class="page-intro">
+      <h1>Our Recipes</h1>
+
+      <p>
+        Add an introduction to your family recipes here.
+      </p>
+    </section>
+
+    <!-- Simple category dropdown -->
+    <div class="category-menu">
+      <label for="recipe-category">Choose a category:</label>
+
+      <select id="recipe-category">
+        <option value="">Select a category</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="desserts">Desserts</option>
+      </select>
+    </div>
+
+    <div class="recipes-layout">
+
+      <!-- LEFT SIDEBAR -->
+      <aside class="recipe-sidebar">
+        <h2>On the Menu</h2>
+
+        <div class="sidebar-item">
+          <div class="image-placeholder sidebar-image">
+            Musubi image
+          </div>
+
+          <h3>
+            <a href="#musubi">Spam Musubi</a>
+          </h3>
+        </div>
+
+        <div class="sidebar-item">
+          <div class="image-placeholder sidebar-image">
+            Curry image
+          </div>
+
+          <h3>
+            <a href="#curry">Chicken Curry</a>
+          </h3>
+        </div>
+
+        <div class="sidebar-item">
+          <div class="image-placeholder sidebar-image">
+            Cake image
+          </div>
+
+          <h3>
+            <a href="#cake">Pineapple Cake</a>
+          </h3>
+        </div>
+      </aside>
+
+      <!-- RECIPE CONTENT -->
+      <div class="recipe-content">
+
+        <section id="breakfast" class="recipe-category">
+          <h2>Breakfast</h2>
+
+          <article class="recipe-details">
+            <h3>Your Breakfast Recipe</h3>
+
+            <p>
+              Add your breakfast recipe and instructions here.
+            </p>
+          </article>
+        </section>
+
+        <section id="lunch" class="recipe-category">
+          <h2>Lunch</h2>
+
+          <article id="musubi" class="recipe-details">
+
+            <div class="image-placeholder recipe-main-image">
+              Spam musubi image
+            </div>
+
+            <h3>Spam Musubi</h3>
+
+            <p>
+              Add a description of your recipe here.
+            </p>
+
+            <h4>Ingredients</h4>
+
+            <ul>
+              <li>Add ingredient and amount.</li>
+              <li>Add ingredient and amount.</li>
+              <li>Add ingredient and amount.</li>
+            </ul>
+
+            <h4>Instructions</h4>
+
+            <ol>
+              <li>Add the first step.</li>
+              <li>Add the second step.</li>
+              <li>Add the final step.</li>
+            </ol>
+
+          </article>
+        </section>
+
+        <section id="dinner" class="recipe-category">
+          <h2>Dinner</h2>
+
+          <article id="curry" class="recipe-details">
+
+            <div class="image-placeholder recipe-main-image">
+              Chicken curry image
+            </div>
+
+            <h3>Chicken Curry</h3>
+
+            <p>
+              Add a description of your recipe here.
+            </p>
+
+            <h4>Ingredients</h4>
+
+            <ul>
+              <li>Add ingredient and amount.</li>
+              <li>Add ingredient and amount.</li>
+              <li>Add ingredient and amount.</li>
+            </ul>
+
+            <h4>Instructions</h4>
+
+            <ol>
+              <li>Add the first step.</li>
+              <li>Add the second step.</li>
+              <li>Add the final step.</li>
+            </ol>
+
+          </article>
+        </section>
+
+        <section id="desserts" class="recipe-category">
+          <h2>Desserts</h2>
+
+          <article id="cake" class="recipe-details">
+
+            <div class="image-placeholder recipe-main-image">
+              Pineapple cake image
+            </div>
+
+            <h3>Pineapple Cake</h3>
+
+            <p>
+              Add a description of your recipe here.
+            </p>
+
+            <h4>Ingredients</h4>
+
+            <ul>
+              <li>Add ingredient and amount.</li>
+              <li>Add ingredient and amount.</li>
+              <li>Add ingredient and amount.</li>
+            </ul>
+
+            <h4>Instructions</h4>
+
+            <ol>
+              <li>Add the first step.</li>
+              <li>Add the second step.</li>
+              <li>Add the final step.</li>
+            </ol>
+
+          </article>
+        </section>
+
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <div>
+        <h2>Stay Connected</h2>
+        <p>Add your contact information and social links here.</p>
+      </div>
+
+      <p>
+        &copy; <span class="year">2026</span> Ohana Bento
+      </p>
+
+    </div>
+  </footer>
+
+</body>
+</html>
