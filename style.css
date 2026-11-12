@@ -22,7 +22,7 @@ body {
   color: #754e2e;
 
   font-family: "Source Code Variable", "Courier New", monospace;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.7;
 }
 
@@ -91,7 +91,7 @@ img {
 ========================= */
 
 .site-header {
-  background-color: #f27d85;
+  background-color: #f0999f;
   border-bottom: 2px solid #754e2e;
 }
 
@@ -364,7 +364,7 @@ nav a[aria-current="page"] {
 .site-footer {
   padding: 25px 0;
   border-top: 2px solid #754e2e;
-  background-color: #f27d85;
+  background-color: #f0999f;
 }
 
 .footer-container {
@@ -420,7 +420,7 @@ nav a[aria-current="page"] {
   }
 
   .family-image {
-    height: 300px;
+    height: 350px;
   }
 
   .about-layout {
@@ -437,5 +437,29 @@ nav a[aria-current="page"] {
     align-items: flex-start;
     flex-direction: column;
   }
+}
+
+/* Ingredient checklist */
+.ingredient-checklist label {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.ingredient-checklist input {
+  accent-color: #006b42;
+}
+
+.ingredient-checklist input:focus-visible {
+  outline: 2px solid #006b42;
+  outline-offset: 3px;
+}
+
+.ingredient-progress {
+  color: #006b42;
+  font-size: 14px;
 }
 

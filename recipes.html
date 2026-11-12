@@ -36,7 +36,7 @@
       <h1>Our Recipes</h1>
 
       <p>
-        Add an introduction to your family recipes here.
+        From breakfast to dinner, we have a variety of recipes for you to try. Explore our collection and find your next favorite dish!
       </p>
     </section>
 
@@ -57,35 +57,26 @@
 
       <!-- LEFT SIDEBAR -->
       <aside class="recipe-sidebar">
-        <h2>On the Menu</h2>
+        <h2>On the Menu!</h2>
 
         <div class="sidebar-item">
-          <div class="image-placeholder sidebar-image">
-            Musubi image
-          </div>
 
           <h3>
-            <a href="#musubi">Spam Musubi</a>
+            <a href="#salmon">Salmon Sushi Bake</a>
           </h3>
         </div>
 
         <div class="sidebar-item">
-          <div class="image-placeholder sidebar-image">
-            Curry image
-          </div>
 
           <h3>
-            <a href="#curry">Chicken Curry</a>
+            <a href="#mac">Mac Salad</a>
           </h3>
         </div>
 
         <div class="sidebar-item">
-          <div class="image-placeholder sidebar-image">
-            Cake image
-          </div>
 
           <h3>
-            <a href="#cake">Pineapple Cake</a>
+            <a href="#pumpkin">Pumpkin Pie</a>
           </h3>
         </div>
       </aside>
@@ -93,6 +84,13 @@
       <!-- RECIPE CONTENT -->
       <div class="recipe-content">
 
+        <section id="cookbook" class="recipe-category">
+          <center><h1>Ohana Bento Menu!</h1></center>
+
+          <img src="menu.jpg" alt="Ohana Bento Menu" class="recipe-image">
+
+        </section>
+        
         <section id="breakfast" class="recipe-category">
           <h2>Breakfast</h2>
 
@@ -107,12 +105,8 @@
 
         <section id="lunch" class="recipe-category">
           <h2>Lunch</h2>
-
+          <img src="spam.jpg" alt="Spam Musubi" class="recipe-image">
           <article id="musubi" class="recipe-details">
-
-            <div class="image-placeholder recipe-main-image">
-              Spam musubi image
-            </div>
 
             <h3>Spam Musubi</h3>
 
@@ -122,87 +116,94 @@
 
             <h4>Ingredients</h4>
 
-            <ul>
-              <li>Add ingredient and amount.</li>
-              <li>Add ingredient and amount.</li>
-              <li>Add ingredient and amount.</li>
-            </ul>
+        <div class="ingredient-checklist">
 
-            <h4>Instructions</h4>
+          <label>
+          <input type="checkbox">
+          1 can (12 oz) Classic Spam
+          </label>
 
-            <ol>
-              <li>Add the first step.</li>
-              <li>Add the second step.</li>
-              <li>Add the final step.</li>
-            </ol>
+          <label>
+          <input type="checkbox">
+          2 to 3 cups cooked short-grain or Calrose sushi rice
+          </label>
+
+          <label>
+          <input type="checkbox">
+          3 to 4 sheets of roasted nori (seaweed)
+          </label>
+
+          <p class="ingredient-progress" aria-live="polite">
+          0 of 3 ingredients ready
+          </p>
+
+        </div>
 
           </article>
         </section>
 
         <section id="dinner" class="recipe-category">
           <h2>Dinner</h2>
-
+          <img src="curry.jpg" alt="Chicken Curry" class="recipe-image">
           <article id="curry" class="recipe-details">
-
-            <div class="image-placeholder recipe-main-image">
-              Chicken curry image
-            </div>
 
             <h3>Chicken Curry</h3>
 
-            <p>
-              Add a description of your recipe here.
+          <div class="ingredient-checklist">
+
+            <label>
+              <input type="checkbox">
+              .5 lbs boneless, skinless chicken thighs (or beef/pork), cut into bite-sized pieces
+            </label>
+
+            <label>
+              <input type="checkbox">
+              2 large yellow onions (thinly sliced)
+            </label>
+
+            <label>
+              <input type="checkbox">
+              2 medium Yukon Gold potatoes (peeled and diced)
+            </label>
+
+            <p class="ingredient-progress" aria-live="polite">
+              0 of 3 ingredients ready
             </p>
 
-            <h4>Ingredients</h4>
-
-            <ul>
-              <li>Add ingredient and amount.</li>
-              <li>Add ingredient and amount.</li>
-              <li>Add ingredient and amount.</li>
-            </ul>
-
-            <h4>Instructions</h4>
-
-            <ol>
-              <li>Add the first step.</li>
-              <li>Add the second step.</li>
-              <li>Add the final step.</li>
-            </ol>
+          </div>
 
           </article>
         </section>
 
         <section id="desserts" class="recipe-category">
           <h2>Desserts</h2>
-
+          <img src="pineapple.jpg" alt="Pineapple Upside Down Cake" class="recipe-image">
           <article id="cake" class="recipe-details">
-
-            <div class="image-placeholder recipe-main-image">
-              Pineapple cake image
-            </div>
 
             <h3>Pineapple Cake</h3>
 
-            <p>
-              Add a description of your recipe here.
-            </p>
+            <div class="ingredient-checklist">
 
-            <h4>Ingredients</h4>
+              <label>
+                <input type="checkbox">
+                1 can (20 oz) crushed pineapple (drained)
+              </label>
 
-            <ul>
-              <li>Add ingredient and amount.</li>
-              <li>Add ingredient and amount.</li>
-              <li>Add ingredient and amount.</li>
-            </ul>
+              <label>
+                <input type="checkbox">
+                1 cup all-purpose flour
+              </label>
 
-            <h4>Instructions</h4>
+              <label>
+                <input type="checkbox">
+                1 cup granulated sugar
+              </label>
 
-            <ol>
-              <li>Add the first step.</li>
-              <li>Add the second step.</li>
-              <li>Add the final step.</li>
-            </ol>
+              <p class="ingredient-progress" aria-live="polite">
+                0 of 3 ingredients ready
+              </p>
+
+            </div>
 
           </article>
         </section>
