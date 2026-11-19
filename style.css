@@ -315,20 +315,23 @@ nav a[aria-current="page"] {
 
 .about-layout {
   display: grid;
-  grid-template-columns: 1fr 1.5fr;
   align-items: center;
   gap: 50px;
 
   padding-top: 55px;
   padding-bottom: 55px;
+
 }
 
-.family-image {
+.family-photo {
   height: 420px;
+  padding: 40px;
 }
 
-.about-text h1 {
+.about-text {
   margin-top: 0;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .button-link {
